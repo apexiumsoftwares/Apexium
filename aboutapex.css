@@ -1,0 +1,188 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(35deg, darkblue, black);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    color: white;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+button {
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #23527c;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #333;
+/*    padding: 10px;*/
+    text-align: center;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Hero Styles */
+
+.hero {
+    background-size: 100% 300px;
+    background-position: 0% 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+
+
+
+
+/* About Styles */
+
+#about {
+/*    background-color: #f9f9f9;*/
+    padding: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+#tools{
+    align-items: center;
+    display: flex;
+    padding: 40PX;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+#tools .container{
+    display: flex;
+    align-items: center;
+}
+#tools .container .img{
+    width: 30%;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#tools .container .content{
+    width: 60%;
+    margin: 100px;
+}
+#tools img{
+    width: 100%;
+    border: 1px solid #0ef;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+#tools img:hover{
+    transform:  scale3d(1.1, 1.1, 1.2);
+    transition: .5s;
+}
+
+#support{
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    padding: 50px;
+    text-align: center;
+}
+#support h1, h2, h3, p{
+    color: white;
+}
+
+#support a{
+    padding: 10px;
+    background-color: darkblue;
+    border-radius: 15px;
+    border: 1px solid black;
+}
